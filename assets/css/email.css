@@ -1,0 +1,195 @@
+/* https://codes-sources.commentcamarche.net/faq/1079-personnalisation-d-une-fenetre-alert */
+
+
+html{
+    background-color: #fafafa;
+}
+
+header, footer, nav{
+    text-align: center;
+    vertical-align:middle;
+}
+
+
+footer{background-color: #007bff;color:white}
+
+#potDeMiel{
+    display: none;
+}
+
+#checkBoxSeparator{
+    display: block;
+}
+
+body, html, div, p, h1, h2, h3, div, span, input, button{
+    font-family: "Poppins",Arial,sans-serif;
+}
+
+
+h3{
+    padding: 4px 8px;
+    background-color: #007bff;
+    display: inline;
+    color: white;
+
+}
+
+#explication h3{text-align: center;}
+
+#copy{
+    display: none;
+}
+
+
+h1, h2{
+    /* padding-left: 1rem; */
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+h2{
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+#resultDiv{
+    display: none;
+}
+
+#container{
+    max-width: 900px;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#form{
+    margin: 1rem;
+}  
+
+textarea{
+    margin: 1rem;
+    width: 90%;
+}
+
+.paddingDiv, #data{
+margin: 0 1rem 0 1rem;
+border-bottom: 1px solid rgb(197, 196, 196);
+
+}
+.nddClass{
+    background-color: #f5f3f3;
+    margin: 2px 1px 2px 1px;
+    border-radius: 10px;
+    color:rgb(53, 60, 68);
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+.resultClass{
+    background-color: #f5f3f3;
+    margin: 2px 1px 2px 1px;
+    border-radius: 10px;
+    color:rgb(53, 60, 68);
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+#ndd, #result{
+  padding: 1rem;
+  font-style: italic;
+}
+
+#envoyer, #reset, #copy, #resetB{
+    margin: 8px 4px 8px 4px;
+    border-radius: 10px;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    background-color: #007bff;
+    cursor:pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+    font-size: medium;
+    cursor: pointer;  
+    -webkit-box-shadow: 0 10px 20px -6px rgb(0 0 0 / 12%);
+    -moz-box-shadow: 0 10px 20px -6px rgba(0,0,0,.12);
+    box-shadow: 0 10px 20px -6px rgb(0 0 0 / 12%);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+
+/* hover en fade In */
+#envoyer:hover, #reset:hover,#copy:hover,#resetB:hover {opacity: 1}
+
+#data{
+    font-weight: bold;
+}
+
+.checkBoxClass{
+
+    width: 45%;
+    display: block;
+    background-color: rgb(105, 180, 180);
+    border: 1px solid red;
+    display: none;
+}
+
+#input{
+    width: 50%;
+    display: none;
+    margin-right: 20px;
+}
+
+#sentence{
+    padding: 1rem;
+    box-shadow: 0 4px 20px #222c311a;
+
+}
+
+#sudo{
+    margin-top: 10px;
+}
+
+.aCopier{
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 10px 0 10px 0;
+    
+    text-align: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 4px 20px #222c311a;
+}
+
+em{
+    font-weight: bolder;
+    color: #007bff;
+}
+
+#but{
+    margin-left: 1rem;
+}
+
+#explication{
+    display: block;
+}
+
+hr{
+    margin: 2rem 0;
+    border: 0;
+}
+
+
+li{ margin-left: 10px;}
+
